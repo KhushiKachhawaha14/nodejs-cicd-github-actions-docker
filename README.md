@@ -31,10 +31,16 @@ Tags the image with the latest commit SHA and the latest tag.
 Pushes the built image to the configured Docker Hub repository.
 
 Setup Instructions
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 175117" src="https://github.com/user-attachments/assets/69412747-5376-478f-91ce-c58217c16dc4" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 175117" src="https://github.com/user-attachments/assets/86118fd1-31ee-4de7-8429-0563840486aa" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 175029" src="https://github.com/user-attachments/assets/1ab5d1bd-b8f3-4b88-ac7a-ce041eade2c4" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 175029" src="https://github.com/user-attachments/assets/91ca1b74-1ba5-4725-9ad7-8a82738df3a5" />
 
 To make this pipeline fully functional, you must perform two steps in your GitHub repository:
 
-1. Update Docker Repository Name
+1. Update Docker Repository Name<img width="1919" height="1079" alt="Screenshot 2025-10-20 175117" src="https://github.com/user-attachments/assets/f388d868-b938-4844-b5e5-6b98fd07152d" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 175029" src="https://github.com/user-attachments/assets/09022490-ab30-49cb-84f9-72968511ef59" />
+
 
 In the .github/workflows/main.yml file, change the placeholder repository name in the env section:
 
@@ -51,3 +57,4 @@ DOCKER_USERNAME: Your Docker Hub username.
 DOCKER_PASSWORD: Your Docker Hub access token (recommended over your password).
 
 These are configured in your GitHub repository under Settings > Secrets and variables > Actions.
+
