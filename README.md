@@ -33,9 +33,7 @@ Pushes the built image to the configured Docker Hub repository.
 Setup Instructions
 To make this pipeline fully functional, you must perform two steps in your GitHub repository:
 
-1. Update Docker Repository Name<img width="1919" height="1079" alt="Screenshot 2025-10-20 175117" src="https://github.com/user-attachments/assets/f388d868-b938-4844-b5e5-6b98fd07152d" />
-<img width="1919" height="1079" alt="Screenshot 2025-10-20 175029" src="https://github.com/user-attachments/assets/09022490-ab30-49cb-84f9-72968511ef59" />
-
+1. Update Docker Repository Name
 
 In the .github/workflows/main.yml file, change the placeholder repository name in the env section:
 
