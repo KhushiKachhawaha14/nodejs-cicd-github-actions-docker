@@ -1,5 +1,5 @@
 # 🚀 Node.js CI/CD Pipeline with GitHub Actions & Docker
-This project demonstrates a robust **Continuous Integration and Continuous Deployment (CI/CD) workflow for a Node.js Express application. It automates the entire lifecycle from code commit to container image distribution.
+This project demonstrates a robust **Continuous Integration** and **Continuous Deployment** (CI/CD) workflow for a Node.js Express application. It automates the entire lifecycle from code commit to container image distribution.
 
 ### 🛠 Tech Stack
 - **Runtime**: Node.js (v20)
